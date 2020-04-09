@@ -5,9 +5,10 @@ matrix:
     - python: 3.6
       env: TOXENV=py36
 
-install: pip install tox
+install: pip install -U tox coverage==4.0.3 coveralls==1.8.2
 
 script: tox
 
 after_success:
+  - coverage combine
   - coveralls
