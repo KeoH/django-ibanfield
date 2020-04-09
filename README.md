@@ -1,5 +1,6 @@
 # Django IBAN Field
-
+[![Build Status](https://travis-ci.org/KeoH/django-ibanfield.svg?branch=master)](https://travis-ci.org/KeoH/django-ibanfield)
+[![Coverage Status](https://coveralls.io/repos/github/KeoH/django-ibanfield/badge.svg?branch=master)](https://coveralls.io/github/KeoH/django-ibanfield?branch=master)
 
 IBANField is an extension for django CharField with special validation for IBAN accounts.
 
