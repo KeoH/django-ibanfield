@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+"autopep8" = "*"
+pycodestyle = "*"
+codecov = "*"
+pytest = ">=5.4.1"
+pytest-cov = "*"
+"pytest-flake8" = "*"
+pylint = "*"
+bandit = "*"
+radon = "*"
+ipython = "*"
+
+[requires]
+python_version = "3.6"
+
+[packages]
+django-ibanfield = {path = ".",extras = ["dev"],editable = true}

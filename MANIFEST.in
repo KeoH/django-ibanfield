@@ -1,0 +1,5 @@
+include *.lock
+include *.txt
+include Pipfile
+include VERSION
+recursive-include tests *.py
