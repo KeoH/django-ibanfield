@@ -31,7 +31,7 @@ setup(
     extras_require={
         "dev": [
             "pytest>=5.4.1",
-            "Django==2.1"
+            "Django==2.2.10"
         ]
     },
     url="https://github.com/KeoH/django-ibanfield",
