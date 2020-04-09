@@ -1,4 +1,7 @@
 [run]
-branch = True
-cover_pylib = False
-source = django_ibanfield
+include=
+    *django_ibanfield/*
+omit =
+    *examples/*
+    .tox/*
+    venv/*
